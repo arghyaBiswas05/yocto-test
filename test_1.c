@@ -3,5 +3,5 @@
 int main()
 {
   printf("its working\n");
-  retunn 0;
+  return 0;
 }
