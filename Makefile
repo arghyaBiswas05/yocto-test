@@ -5,7 +5,7 @@ JSONLIB = \
 
 
 all:
-	${CXX} test_1.cpp -o test_file `pkg-config --cflags --libs jsoncpp`
+	${CXX} test_1.cpp -o test_file $(shell pkg-config --cflags --libs jsoncpp)
 
 install:
 	cp test_file /usr/bin
