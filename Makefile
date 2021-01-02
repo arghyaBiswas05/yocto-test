@@ -6,7 +6,7 @@ JSONLIB = \
 
 
 all:
-	${CXX} -O test_1.cpp -o test_file ${JSONLIB}
+	${CXX} ${CXXFLAGS} -O test_1.cpp -o test_file ${LDFLAGS} ${JSONLIB}
 
 install:
 	cp test_file ${DESTDIR}/usr/bin
