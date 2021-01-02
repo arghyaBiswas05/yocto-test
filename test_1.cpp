@@ -2,8 +2,8 @@
 #include <iostream>
 #include <fstream>
 #include <string.h>
-#include <jsoncpp/json/json.h>
-#include <jsoncpp/json/value.h>
+#include <json/json.h>
+#include <json/value.h>
 
 using namespace std;
 

@@ -2,6 +2,7 @@ JSONLIB = \
 		-L/usr/local/lib \
 		-ljsoncpp \
 		-I/usr/include/jsoncpp \
+		-I/usr/include/json
 
 
 all:
